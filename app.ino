@@ -12,7 +12,7 @@ void setup() {
   delay(6000);
   pinMode(ledPin, OUTPUT); // Configura o pino do LED como saída
   pinMode(pinoSensorSom, INPUT); // DEFINE O PINO COMO ENTRADA
-  const int limite_som = analogRead(pinoSensorSom);
+  
 }
 
 void loop() {

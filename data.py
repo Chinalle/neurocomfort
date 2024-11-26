@@ -31,7 +31,8 @@ except KeyboardInterrupt:
     print("\nEncerrando leitura serial e conexão com o banco.")
 
 finally:
-    # Fecha a conexão com o banco de dados
+    
     fechar_conexao(conexao, cursor)
     comport.close()
     print("Conexão com o banco e a serial fechadas.")
+    
